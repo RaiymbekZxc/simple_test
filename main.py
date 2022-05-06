@@ -10,7 +10,7 @@ def intcheck():
         else:
             return i
 
-def r(diff):
+def man(diff):
     it = 0
     mark = 0
     while it < 5:
@@ -69,4 +69,4 @@ def r(diff):
 
 if __name__ == "__main__":
     print("Which level do you want? Enter a number:", "1 - simple operations with numbers 2-9", "2 - integral squares of 11-29", sep="\n")
-    r(int(input()))
+    man(int(input()))
